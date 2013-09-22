@@ -1,0 +1,25 @@
+poll-predict
+============
+Extracts polling results from designated political elections by web scraping
+XML and HTML code of polling websites. Plots polling predictions compared with
+actual race results. Calculates error of polling predictions and compiles all
+error data from a collection of races into a dataframe. Then uses this
+dataframe to make a bootsrap estimate which it applies to current elections
+to predict their outcomes. The races selected in testing examples are governor
+races from 2010. However the same framework can be applied to various races
+from the RCP polling website (user can change url request to analyze different
+races). 
+
+Author
+======
+Alex Lehman
+ealehman91@gmail.com
+
+graph plotting code and instructions provided by Harvard University staff of
+CS109 (see assignment_spec.ipynb for provided code snippets and outline)
+
+run
+===
+To run, download poll_predict.py and run python poll_predict.py in your
+terminal. To continue to next graph, ex out of the graph that pops up. 
+
